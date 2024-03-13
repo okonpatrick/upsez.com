@@ -4,4 +4,12 @@ import react from '@vitejs/plugin-react-swc'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  assert: {
+    include: [
+      '**/*.jpg',
+      '**/*.png',
+      '**/*.gif',
+      // Add other image file types as needed
+    ]
+  }
 })
