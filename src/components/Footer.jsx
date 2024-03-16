@@ -1,18 +1,9 @@
-<<<<<<< HEAD
 import { MailchimpForm } from "./Forms/MailChimpForm";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon4 from "../assets/img/nav-icon4.svg";
 // import "animate.css";
 // import "animate.css/animate.css";
-=======
-import { MailchimpForm } from "./MailchimpForm";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon4 from "../assets/img/nav-icon4.svg";
-import "animate.css";
-import "animate.css/animate.css";
->>>>>>> 842b8eaeed5240638b9f1b163a43906b06c4e5c5
 
 const currentDate = new Date();
 const year = currentDate.getFullYear();

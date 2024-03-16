@@ -2,11 +2,9 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { ShoppingCartIcon } from '@heroicons/react/24/outline';
-<<<<<<< HEAD
 import LogoOne from "../assets/img/logoone.png"
-=======
-import LogoOne from "../assets/logoone.png"
->>>>>>> 842b8eaeed5240638b9f1b163a43906b06c4e5c5
+
+
 const navigation = [
   { name: 'Home', href: '#', current: true },
   { name: 'Cart', href: '#', current: false },

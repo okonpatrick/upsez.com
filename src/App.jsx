@@ -15,9 +15,4 @@ function App() {
     </>
   )
 }
-
-<<<<<<< HEAD
-export default App
-=======
-export default App
->>>>>>> 842b8eaeed5240638b9f1b163a43906b06c4e5c5
+export default App;
