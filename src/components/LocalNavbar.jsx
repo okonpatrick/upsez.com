@@ -4,7 +4,6 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { ShoppingCartIcon } from '@heroicons/react/24/outline';
 import LogoOne from "../assets/img/logoone.png"
 
-
 const navigation = [
   { name: 'Home', href: '#', current: true },
   { name: 'Cart', href: '#', current: false },
@@ -108,7 +107,7 @@ export default function Navbar() {
                         {({ active }) => (
                           <a
                             href="#"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-black')}
                           >
                             Settings
                           </a>

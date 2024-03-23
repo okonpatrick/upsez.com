@@ -38,7 +38,7 @@ export const Newsletter = ({ subscribe, status, message, onValidated }) => {
       <div className="newsletter-bx animate__animated animate__zoomIn">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5">
           <div className="md:col-span-2 xl:col-span-3">
-            <h3 className="text-2xl font-semibold">Subscribe to our Newsletter</h3>
+            <h3 className="text-3xl font-bold">Subscribe to our Newsletter</h3>
             {alertVisible && (
               <div
                 className={`p-4 rounded-md ${
@@ -58,12 +58,12 @@ export const Newsletter = ({ subscribe, status, message, onValidated }) => {
                   name="EMAIL"
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Email address"
-                  className="w-80 px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-orange-500"
+                  className="w-80 px-2 py-4 rounded-md border border-gray-300 focus:outline-none focus:border-orange-500"
                   required
                 />
                 <button
                   type="submit"
-                  className="ml-4 px-6 py-2 bg-orange-500 text-white rounded-md hover:bg-blue-600 focus:outline-none"
+                  className="ml-4 px-6 py-4 bg-orange-500 text-white font-bold rounded-md hover:bg-blue-600 focus:outline-none"
                 >
                   Submit
                 </button>
