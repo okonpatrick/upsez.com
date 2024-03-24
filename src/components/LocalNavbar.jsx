@@ -36,11 +36,12 @@ export default function Navbar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
+                  <a href='/'> <img
                     className="h-8 w-auto"
                     src={LogoOne}
                     alt="Upsez Store"
-                  />
+                  /></a>
+                 
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="mx-80 flex space-x-4">
@@ -138,7 +139,7 @@ export default function Navbar() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.current ? 'bg-orange-500 text-white' : 'text-black hover:bg-gray-700 hover:text-white',
                     'block rounded-md px-3 py-2 text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}

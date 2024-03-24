@@ -1,14 +1,15 @@
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 [
   {
+    "id": 1,
     "itemName": "Laptops",
     "imageSrc": "./src/assets/img/laptops.jpg",
-    "price": 10000,
+    "price": 200000,
     "condition": "New",
     "brand": "Dell",
     "capacity": "512GB",
     "graphics-card": "NVIDIA GeForce GTX 1660 Ti",
-    "operating-system": "Windows 10",
+    "operating-system": "Windows 11",
     "touchscreen": false,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "model": "Latitude X",
@@ -30,10 +31,11 @@
   },
   
   {
+    "id": 2,
     "itemName": "Mobile Phones & Tablets",
     "imageSrc": "https://th.bing.com/th/id/OIP.o47O_fdZsUG4dqsmx2NCIQHaEu?w=307&h=195&c=7&r=0&o=5&dpr=2&pid=1.7",
-    "price": 800,
-    "condition": "Used",
+    "price": 1000,
+    "condition": "New",
     "brand": "Samsung",
     "capacity": "256GB",
     "graphics-card": null,
@@ -59,9 +61,10 @@
   },
 
   {
+    "id": 3,
     "itemName": "Phone Accessories",
     "imageSrc": "https://th.bing.com/th/id/OIP.uPbU8vFNVL7DhXXCmjFz5wHaHa?w=300&h=190&c=7&r=0&o=5&dpr=2&pid=1.7",
-    "price": 10.99,
+    "price": 3000,
     "condition": "New",
     "brand": "XYZ",
     "capacity": "10000mAh",
@@ -88,9 +91,10 @@
   },
 
   {
+    "id": 4,
     "itemName": "Audio & Music",
     "imageSrc": "http://ts3.mm.bing.net/th?id=OIP.RhcYNnuoPMa5PBSD_CU3zgHaHa&w=300&h=190&pid=15.1",
-    "price": 199.99,
+    "price": 20000,
     "condition": "New",
     "brand": "ABC",
     "capacity": null,
@@ -117,9 +121,10 @@
   },
 
   {
+    "id": 5,
     "itemName": "Eye Care/Jewelry",
     "imageSrc": "https://th.bing.com/th/id/OIP.NfHBP_7rjuLbkQ_nfhSptQHaHa?w=220&h=145&c=7&r=0&o=5&dpr=2&pid=1.7",
-    "price": 50,
+    "price": 5000,
     "condition": "New",
     "brand": "Brand X",
     "capacity": "Standard",
@@ -146,9 +151,10 @@
   },
 
   {
+    "id": 6,
     "itemName": "Computer Accessories",
     "imageSrc": "https://th.bing.com/th/id/OIP.xkImxjMdE-GTDAk0TiaIaAHaD0?w=330&h=220&c=7&r=0&o=5&dpr=2&pid=1.7",
-    "price": 30,
+    "price": 10000,
     "condition": "New",
     "brand": "Brand Z",
     "capacity": "N/A",
@@ -175,9 +181,10 @@
   },
 
   {
-    "itemName": " Other Services",
+    "id": 7,
+    "itemName": "Other Services",
     "imageSrc": "https://th.bing.com/th/id/OIP.BPi_RBbuEhtZZfb8lVgJAgHaH6?pid=ImgDet&w=290&h=200&c=7&dpr=2",
-    "price": 100,
+    "price": 100000,
     "condition": "New",
     "brand": "N/A",
     "capacity": "N/A",
