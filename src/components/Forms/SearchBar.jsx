@@ -1,4 +1,7 @@
 import React from 'react';
+import LaptopData from "../JsonFiles/LaptopCard.json";
+import menuData from '../JsonFiles/JsonCardData.json';
+import LaptopCard from "../CardFile/LaptopCards/LaptopCard";
 
 function SearchForm() {
   return ( 
